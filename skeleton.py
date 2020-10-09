@@ -19,7 +19,7 @@ def getNumWords(string):
 	# Write code here
 	return(len(string.split()))
 
-
+# swapping the first and the last characters of a string
 def swapCase(string):
     swapcase= str[-1:] + str[1:-1] + str[:1]
     return(swapcase)
