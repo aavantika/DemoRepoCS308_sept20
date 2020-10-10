@@ -9,8 +9,9 @@ def getFirstWord(string):
 
 # Avantika
 def getLastWord(string):
-   word_list = str.split()
+   word_list = string.split()
    return word_list[-1]
+
 	
 
 
@@ -21,8 +22,8 @@ def getNumWords(string):
 
 # swapping the first and the last characters of a string
 def swapCase(string):
-    swapcase= str[-1:] + str[1:-1] + str[:1]
-    return(swapcase)
+    swaped_char= string[-1:] + string[1:-1] + string[:1]
+    return(swaped_char)
 
 def exptWork(string):
     return('This is expt ' + string)
